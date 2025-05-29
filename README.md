@@ -1,30 +1,62 @@
-# 📘 Topic Modeling for Learning Profile Extraction using LDA on EdNet-KT1 Dataset
+# 📘 Pemodelan Topik untuk Pembentukan Profil Belajar Menggunakan LDA pada Dataset EdNet-KT1
 
-This repository contains source code, data subsets, and visualization notebooks related to the research:
+Repositori ini berisi kode sumber, subset data, serta notebook eksperimen yang digunakan dalam penelitian:
 
-> **"Topic Modeling to Form Learning Profiles Using LDA and Coherence Evaluation"**  
+> **"Pemodelan Topik untuk Membentuk Profil Belajar Menggunakan LDA dan Evaluasi Koherensi"**  
 > *Andika Dwi Arko*, *Muhamad Yusril Helmi Setyawan*  
-> University of Logistics and International Business  
-> Submitted to: JUTI – Scientific Journal of Information Technology
 
 ---
 
-## 🔍 Overview
+## 🔍 Ringkasan Proyek
 
-This project explores how **Latent Dirichlet Allocation (LDA)** can be used to model question topics and generate **semantic learning profiles** for students using large-scale data from the **EdNet-KT1** dataset. Students’ interactions with tagged questions are transformed into pseudotexts, clustered by dominant topic, and used to calculate **topic-wise accuracy**. These representations form the basis for **student segmentation** and **adaptive learning recommendations**.
-
----
-
-## 🧪 Key Features
-
-- Semantic topic extraction with **LDA** (via Gensim)
-- Coherence evaluation (c_v metric: **0.6688** with 20 topics)
-- Topic-wise student accuracy matrix (user × topic)
-- Visual analytics: **heatmap**, **radar chart**, **line plot**, **PCA**
-- Clustering of students using **K-Means**
-- Topic recommendations based on accuracy thresholds
+Penelitian ini mengembangkan pendekatan untuk membentuk **profil belajar berbasis topik** dari data interaksi siswa skala besar menggunakan algoritma **Latent Dirichlet Allocation (LDA)**. Dataset yang digunakan adalah **EdNet-KT1**, yang berisi interaksi siswa dengan soal berbasis tag semantik. Setiap soal dikonversi menjadi pseudoteks, dimodelkan ke dalam 20 topik, dan dihubungkan dengan akurasi siswa pada tiap topik untuk membentuk matriks performa siswa.
 
 ---
 
+## 🧪 Fitur Utama
+
+- Ekstraksi topik semantik dengan **LDA (Gensim)**
+- Evaluasi kualitas model menggunakan nilai *coherence* (**0,6688**)
+- Representasi akurasi siswa per topik (user × topic matrix)
+- Visualisasi profil belajar: **heatmap**, **radar chart**, **line plot**
+- Segmentasi siswa menggunakan **K-Means** dan visualisasi dengan **PCA**
+- Rekomendasi topik adaptif berdasarkan ambang akurasi
+
+---
+
+## 📁 Struktur Folder
+* data/
+
+
+* notebooks/
+
+* figures/
+* requirements.txt
+* LICENSE
+* README.md
+
+---
+
+## 💾 Dataset
+
+- **EdNet-KT1** disediakan oleh Riiid Labs, berisi lebih dari 131 juta interaksi siswa.
+- Subset data (~1000 file log) digunakan untuk alasan efisiensi komputasi.
+- Sumber: [https://github.com/riiid/ednet](https://github.com/riiid/ednet)  
+- Lisensi: **Creative Commons BY-NC 4.0** (penggunaan non-komersial)
+
+---
+
+## ▶️ Cara Menjalankan
+
+### Prasyarat
+- Python 3.9+
+- Jupyter Notebook atau Google Colab
+- RAM ≥ 12 GB disarankan
+
+### Instalasi
+```bash
+git clone https://github.com/username/Topic-Modeling-EdNet.git
+cd Topic-Modeling-EdNet
+pip install -r requirements.txt
 
 
