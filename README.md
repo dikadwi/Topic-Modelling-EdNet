@@ -25,12 +25,9 @@ Penelitian ini mengembangkan pendekatan untuk membentuk **profil belajar berbasi
 ---
 
 ## 📁 Struktur Folder
-* data/
-
-
+* File Output/
 * notebooks/
-
-* figures/
+* Visualization/
 * requirements.txt
 * LICENSE
 * README.md
