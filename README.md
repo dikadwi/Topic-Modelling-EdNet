@@ -23,7 +23,7 @@ Penelitian ini mengembangkan pendekatan untuk membentuk **profil pembelajaran be
 ```
 .
 ├── notebook/
-│   ├── ipynb
+│   ├── Analisis_LDA_Siswa.ipynb
 ├── file_output/
 │   ├── 1.combined_question_interaction.csv
 │   ├── 2.pseudotexts_question.csv
