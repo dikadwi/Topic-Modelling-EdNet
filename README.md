@@ -3,12 +3,12 @@
 
 This repository contains source code, data preprocessing scripts, and experimental notebooks used in the study:
 
-> **"Topic Modeling for Constructing Learning Profiles Using LDA and Coherence Evaluation"**  
-> Submitted to *JUTI: Jurnal Ilmiah Teknologi Informasi*
+> **"Topic Modeling for Constructing Learning Profiles Using LDA and Coherence Evaluation"**
+> > *Andika Dwi Arko*, *Muhamad Yusril Helmi Setyawan*
 
 ## 🧠 Overview
 
-This project proposes a semantic-based learning profiling approach by applying **Latent Dirichlet Allocation (LDA)** to the **EdNet-KT1** dataset. The aim is to model topics from educational interaction data and construct student learning profiles based on topic-wise performance.
+Penelitian ini mengembangkan pendekatan untuk membentuk **profil pembelajaran berbasis topik** dari data interaksi siswa skala besar menggunakan algoritma **Latent Dirichlet Allocation (LDA)**. Dataset yang digunakan adalah **EdNet-KT1**, yang berisi interaksi siswa dengan pertanyaan berdasarkan tag semantik. Setiap pertanyaan dikonversi menjadi pseudotext, dimodelkan menjadi 20 topik, dan dihubungkan dengan akurasi siswa pada setiap topik untuk membentuk matriks kinerja siswa.
 
 ## 🔍 Objectives
 
@@ -23,29 +23,26 @@ This project proposes a semantic-based learning profiling approach by applying *
 ```
 .
 ├── notebook/
-│   ├── 1_preprocessing_ednet.ipynb
-│   ├── 2_generate_pseudotext.ipynb
-│   ├── 3_topic_modeling_lda.ipynb
-│   ├── 4_student_accuracy_matrix.ipynb
-│   ├── 5_clustering_analysis.ipynb
-│   └── 6_topic_recommendation.ipynb
-├── data/
-│   ├── EdNet-KT1/
-│   ├── interaksi_soal_gabungan.csv
-│   ├── question.csv
-│   ├── soal_pseudo_text.csv
-│   ├── soal_topik.csv
-│   ├── representasi_topik_siswa.csv
-│   └── rekomendasi_pembelajaran_adaptif.csv
-├── figures/
-│   ├── fig_1_methodology_flowchart.png
-│   ├── fig_3_pyldavis.png
-│   ├── fig_4_heatmap_accuracy.png
-│   ├── fig_5_radar_chart.png
-│   ├── fig_6_pca_clustering.png
-│   ├── fig_7_bar_recommendation.png
-│   └── fig_8_coherence_score_plot.png
+│   ├── ipynb
+├── file_output/
+│   ├── 1.combined_question_interaction.csv
+│   ├── 2.pseudotexts_question.csv
+│   ├── 3.topic_question.csv
+│   ├── 4.student_topic_representation.csv
+│   ├── 5.student_grade_matrix_topic.csv
+│   ├── 6.user_topic_matrix.csv
+|   └── 7.student_topic_cluster.csv
+├── Visualization/
+│   ├── PyLDAvis.png
+│   ├── Heatmap_Learning_Profile.png
+│   ├── Radar_chart.png
+│   ├── PCA_Clustering.png
+│   ├── Top10_Recommended_Topic.png
+│   ├── line_chart.png
+│   └── comparison_coherence_lda.png
 └── README.md
+└── LICENSE
+└── requirements.txt
 ```
 
 ## 📊 Dataset
@@ -64,8 +61,8 @@ This project proposes a semantic-based learning profiling approach by applying *
 | **Visualization Tools**     | PyLDAvis, heatmaps, radar charts, PCA                                      |
 | **Adaptive Recommendations**| Topics with accuracy < 0.5 and interaction > 10 identified as weak areas   |
 
-## 🛠️ Technologies
-
+## 🛠️ Technologies / requirements
+- Using Google Colab
 - Python 3.9
 - Gensim
 - Scikit-learn
@@ -73,17 +70,6 @@ This project proposes a semantic-based learning profiling approach by applying *
 - NLTK
 - PyLDAvis
 
-## 📜 Citation
-
-If you use this code or data, please cite the associated paper (once published).  
-
-```bibtex
-@article{arko2025lda,
-  title={Topic Modeling for Constructing Learning Profiles Using LDA and Coherence Evaluation},
-  author={Andika Dwi Arko and Muhamad Yusril Helmi Setyawan},
-  journal={JUTI: Jurnal Ilmiah Teknologi Informasi},
-  year={2025}
-}
 ```
 
 ## 📬 Contact
