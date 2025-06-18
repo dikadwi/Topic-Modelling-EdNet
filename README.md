@@ -73,6 +73,4 @@ Penelitian ini mengembangkan pendekatan untuk membentuk **profil pembelajaran be
 ## 📬 Contact
 
 **Andika Dwi Arko**  
-  Email: [adwiarko@gmail.com]
-
-```
+  Email: adwiarko@gmail.com
