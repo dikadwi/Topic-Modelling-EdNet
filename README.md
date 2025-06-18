@@ -8,7 +8,7 @@ This repository contains source code, data preprocessing scripts, and experiment
 
 ## 🧠 Overview
 
-Penelitian ini mengembangkan pendekatan untuk membentuk **profil pembelajaran berbasis topik** dari data interaksi siswa skala besar menggunakan algoritma **Latent Dirichlet Allocation (LDA)**. Dataset yang digunakan adalah **EdNet-KT1**, yang berisi interaksi siswa dengan pertanyaan berdasarkan tag semantik. Setiap pertanyaan dikonversi menjadi pseudotext, dimodelkan menjadi 20 topik, dan dihubungkan dengan akurasi siswa pada setiap topik untuk membentuk matriks kinerja siswa.
+This study develops an approach to form **topic-based learning profiles** from large-scale student interaction data using the **Latent Dirichlet Allocation (LDA)** algorithm. The dataset used is **EdNet-KT1**, which contains student interactions with questions based on semantic tags. Each question is converted into pseudotext, modeled into 20 topics, and linked to student accuracy on each topic to form a student performance matrix.
 
 ## 🔍 Objectives
 
