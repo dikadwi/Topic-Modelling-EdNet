@@ -70,9 +70,9 @@ Penelitian ini mengembangkan pendekatan untuk membentuk **profil pembelajaran be
 - NLTK
 - PyLDAvis
 
-```
-
 ## 📬 Contact
 
 **Andika Dwi Arko**  
   Email: [adwiarko@gmail.com]
+
+```
