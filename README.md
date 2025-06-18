@@ -77,7 +77,7 @@ This study develops an approach to form **topic-based learning profiles** from l
 **Andika Dwi Arko**  
   Email: adwiarko@gmail.com
 
-## License
+## 📜 License
 This project is shared under a custom MIT-style license with restrictions. 
 Usage is free for academic/non-commercial purposes with attribution. 
 Modification or redistribution requires permission from the author (adwiarko@gmail.com).
