@@ -49,7 +49,7 @@ Penelitian ini mengembangkan pendekatan untuk membentuk **profil pembelajaran be
 ## 📊 Dataset
 
 - **EdNet-KT1**: A large-scale dataset of 131M+ interactions from ~784K students.
-- **question**: file provides metadata for each question used in the EdNet-KT1 dataset. It contains 7 columns, each describing key attributes of a question, including identifiers, semantic tags, and deployment information.
+- **question**: file provides metadata for each question used in the EdNet-KT1 dataset. It contains 7 columns, each describing key attributes of a *question_id, bundle_id, explanation_id, correct_answer, part, tags, deployed_at*.
 - Source: [EdNet GitHub](https://github.com/riiid/ednet)
 - For this study, a **subset of 1,000 log files** was used (≈154K rows) for computational efficiency and topic diversity.
 
