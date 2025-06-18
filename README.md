@@ -75,3 +75,9 @@ Penelitian ini mengembangkan pendekatan untuk membentuk **profil pembelajaran be
 
 **Andika Dwi Arko**  
   Email: adwiarko@gmail.com
+
+## License
+This project is shared under a custom MIT-style license with restrictions. 
+Usage is free for academic/non-commercial purposes with attribution. 
+Modification or redistribution requires permission from the author (adwiarko@gmail.com).
+
