@@ -5,7 +5,7 @@ This repository contains source code, data preprocessing scripts, and experiment
 
 > **"Topic Modeling for Constructing Learning Profiles Using LDA and Coherence Evaluation"**
 > > *Andika Dwi Arko*, *Muhamad Yusril Helmi Setyawan* , *Roni Andarsyah*
-> > *https://doi.org/10.12962/j24068535.v23i2.a1301*
+> > > *https://doi.org/10.12962/j24068535.v23i2.a1301*
 
 ## 🧠 Overview
 
