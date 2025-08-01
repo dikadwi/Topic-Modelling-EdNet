@@ -7,6 +7,9 @@ This repository contains source code, data preprocessing scripts, and experiment
 > > *Andika Dwi Arko*, *Muhamad Yusril Helmi Setyawan* , *Roni Andarsyah*
 > > > *https://doi.org/10.12962/j24068535.v23i2.a1301*
 
+You can see this experiment in the following notebook on Google Collabs :
+https://colab.research.google.com/drive/1UA17Lu_knRpE1_BhuGRH1DhT8yTB1IP1?usp=sharing
+
 ## 🧠 Overview
 
 This study develops an approach to form **topic-based learning profiles** from large-scale student interaction data using the **Latent Dirichlet Allocation (LDA)** algorithm. The dataset used is **EdNet-KT1**, which contains student interactions with questions based on semantic tags. Each question is converted into pseudotext, modeled into 20 topics, and linked to student accuracy on each topic to form a student performance matrix.
